@@ -311,7 +311,7 @@ after cria depois*/
 	display: block;
 	background: url("../img/linhas.svg") no-repeat center;
 	position: absolute;
-	top: 2600px ;
+	top: 2500px ;
 	right: 355px;
 	z-index: -1;
 }
@@ -350,6 +350,7 @@ after cria depois*/
 	text-transform: uppercase;
 	letter-spacing: .1en;
 	font-weight: bold;
+	margin-top: 20px 10ps 10px 10px;
 }
 
 .footer h3:after {
@@ -361,16 +362,34 @@ after cria depois*/
 	
 }
 
-.footer_historia{
+.footer_historia {
+	margin-top: 15px;
 	padding-right: 80px;
 }
+.footer_historia p {
+	margin-top: 9px;
+}
 
-.footer_contato ul li {
+.footer_contatos{
+	margin-top: 15px;
+}
+.footer_redes{
+	margin-top: 15px;
+}
+
+.footer_contatos ul{
+	margin-top: 9px;
+}
+
+.footer_contatos ul li {
 	font-size: 14px;
 	line-height: 20px;
 	font-family: geogia,"times new roman". serif;
+	
 }
-
+.footer_redes ul{
+	margin-top: 9px;
+}
 .footer_redes ul li {
 	display: inline-block;
 	margin-right: : 10px;
