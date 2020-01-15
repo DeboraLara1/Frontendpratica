@@ -6,9 +6,9 @@ img{
 	display: block;
 }
 .btn{
-	border:3px solid #000;
+	border:3px solid #fec63e;
 	padding: 10px 30px;
-	color: #000;
+	color: #fec63e;
 	font-size: 14px;
 	line-height: 20px;
 	text-transform: uppercase;
@@ -17,8 +17,8 @@ img{
 }
 
 .btn:hover{
-	color: #fec63e;
-	border-color: #fec63e;
+	color: #000;
+	border-color: #000;
 	
 }
 
@@ -100,7 +100,7 @@ img{
 	padding: 30px;
     width: 100%;
 	height: 400px;
-	background: url(../img/akitainu4.jpg) no-repeat center;
+	background: url(../img/contato.jpg) no-repeat center;
 	background-size: cover;
 	margin-top: 120px;
 	text-align: center;
@@ -125,28 +125,6 @@ img{
 	margin: 6px auto 10px auto ;
 }
 
-.missao-sobre{
-	padding: 60px 0 0 0 ; 
-}
-
-.missao-sobre p{
-	font-size: 18px;
-	line-height: 25px;
-	margin-bottom: 1em;
-	padding-right: 60px;
-}
-
-.missao-sobre ul li{
-	font-size: 18px;
-	line-height: 30px;
-	font-family: Georgia, "times new roman", serif
-}
-
-.foto-equipe{
-	padding-top: 20px;
-
-
-}
 .introducao .container_2 {
 	padding: 10px 20px 20px 20px;
 }
@@ -158,32 +136,120 @@ img{
 	text-transform: uppercase;
 }
 
-.subtitulo-interno{
-	padding: 20px;
-	font-size: 24px;
-	line-height: 40px; 
-	font-weight: bold;
-	letter-spacing: .1en;
-	color: #000;
-	text-transform: uppercase;
-	
-
+.contato{
+	padding: 40px 0;
 }
 
-.subtitulo-interno:after {
-	content: "";
+.form{
+	padding-right: 60px;
+}
+
+.contato-form label{
 	display: block;
-	width: 70px;
-	height: 3px;
-	background: #000;
-	margin: 1px 0 ;
+	font-family: georgia,"Times new roman", serif;
+	font-size: 18px;
+	line-height: 25px;
+	margin-top: 4px;
 }
+
+.contato-form input{
+	display: block;
+	width: 100%;
+	border: 4px solid #fec63e;
+	background:none;
+	padding: 5px 10px;
+	outline: none;
+	font-size: 14px;
+	font-family: georgia,"Times new roman", serif;
+	margin-bottom: 10px;
+}
+
+.contato-form textarea{
+	display: block;
+	width: 100%;
+	height: 120px;
+	border: 4px solid #fec63e;
+	background:none;
+	padding: 5px 10px;
+	outline: none;
+	font-size: 14px;
+	font-family: georgia,"Times new roman", serif;
+	margin-bottom: 10px;
+}
+
+.form button{
+	padding: 10px 40px;
+	background: none;
+}
+
+.contato-dados{
+	color: #fff;
+}
+
+.contato-dados h3{
+	font-size: 18px;
+	line-height: 25px;
+	text-transform: uppercase;
+	color: #fec63e;
+	font-weight: bold;
+	padding: 0 0 0 550px;
+}
+
+.contato-dados span{
+	display: block;
+	color: #000;
+	font-size: 18px;
+	font-family: georgia,"Times new roman", serif;
+	line-height: 30px;
+	padding: 0 0 0 550px;
+}
+
+.contato-dados span:nth-of-type(even){
+	margin-bottom: 30px;
+}
+.dados-email{
+	margin-bottom: 0px;
+	padding: 40px 40px 60px 550px;
+}
+
+.contato-dados ul{
+	padding: 10px 40px 60px 550px;
+}
+
+.contato-dados ul li {
+	font-family: georgia,"Times new roman", serif;
+	font-size: 14px;
+	padding: 2px 8px;
+}
+.contato-dados ul li {
+	display: inline-block;
+	margin-right: : 5px;
+}
+
+.contato-dados ul li a {
+	border: 3px solid #fec63e;
+	display: block;
+	padding: 3px;
+	margin: 4px;
+}
+
+/*Imagem do mapa*/
+
+.contato-mapa{
+	margin-bottom: 60px;
+}
+
+.contato-dados ul li a:hover{
+	border-color: #000;
+}
+
 
 .quote-externo{
 	max-width: 320px;
 	margin: 0 auto;	
 	margin-bottom: 40px;
 	color: #000;
+
 }
 
 .quote-externo p{
@@ -209,60 +275,7 @@ after cria depois*/
 	letter-spacing: .1en;
 }
 
-/*Qualidade*/
 
-
-.qualidade{
-	padding: 30px;
-	margin: 0px 140px 0px 132px;
-
-}
-.qualidade img{
-	margin: 0 auto;
-}
-
-.qualidade_lista{
-	padding-top: 20px;
-	overflow: hidden;
-}
-
-.qualidade_lista li{
-	text-align: center;
-	padding: 0 50px;
-}
-
-.qualidade_lista li h3{
-	font-weight: bold;
-	font-size: 18px;
-	line-height: 30px;
-	text-transform: uppercase;
-	letter-spacing: .1en;
-	margin-top: 10px;
-	 
-
-}
-
-.qualidade_lista li h3:after{
-	content: "";
-	display: block;
-	width: 60px;
-	height: 3px;
-	background: #000;
-	margin: 6px auto ;
-
-}
-
-.qualidade:after {
-	content: "";
-	width: 634px;
-	height: 83px;
-	display: block;
-	background: url("../img/linhas.svg") no-repeat center;
-	position: absolute;
-	top: 1990px ;
-	right: 455px;
-	z-index: -1;
-}
 	
 
 /*Quebra final da pagina*/
