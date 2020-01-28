@@ -11,6 +11,7 @@ p{
 
 img{
 	display: block;
+	max-width: 100%;
 }
 
 .btn{
@@ -98,10 +99,6 @@ img{
 }
 
 .header_menu ul li a:hover {
-	color: yellow;
-}
-
-.menu_ativo .header_menu ul li a{
 	color: yellow;
 }
 
@@ -311,7 +308,7 @@ after cria depois*/
 	display: block;
 	background: url("../img/linhas.svg") no-repeat center;
 	position: absolute;
-	top: 2500px ;
+	top: 2265px ;
 	right: 355px;
 	z-index: -1;
 }
