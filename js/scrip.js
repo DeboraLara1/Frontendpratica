@@ -1,4 +1,4 @@
 new SimpleSlide({
 	slide:"quote",
-	time: 5000
-});
+	time:5000
+})
